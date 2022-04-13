@@ -12,7 +12,7 @@ setuptools.setup(
     url="https://github.com/rubenwol/RoleQGeneration",
     packages=setuptools.find_packages(),
     install_requires=[
-        'allennlp==1.2.0rc1',
+        'allennlp',
         'spacy',
     ],
     classifiers=[
