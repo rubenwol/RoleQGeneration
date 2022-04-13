@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 version = "0.0.1"
 
 setuptools.setup(
-    name="roleQGeneration",
+    name="RoleQGeneration",
     version=version,
     author="Valentina Py",
     url="https://github.com/rubenwol/RoleQGeneration",
