@@ -3,8 +3,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-with open("qanom/version.txt", "r") as f:
-    version = f.read().strip()
+version = 0.0.1
 
 setuptools.setup(
     name="roleQGeneration",
