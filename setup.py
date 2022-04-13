@@ -10,7 +10,7 @@ setuptools.setup(
     version=version,
     author="Valentina Py",
     url="https://github.com/rubenwol/RoleQGeneration",
-    packages=["RoleQGeneration"],
+    packages=['RoleQGeneration'],
     install_requires=[
         'spacy',
     ],
