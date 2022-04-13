@@ -3,11 +3,10 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-version = "0.0.1"
 
 setuptools.setup(
     name="RoleQGeneration",
-    version=version,
+    version = "0.0.1",
     author="Valentina Py",
     url="https://github.com/rubenwol/RoleQGeneration",
     packages=setuptools.find_packages(),
