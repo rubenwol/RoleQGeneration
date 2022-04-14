@@ -14,6 +14,7 @@ setuptools.setup(
         'spacy',
         'unidecode',
         'jsonlines',
+        'pytorch_lightning',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
