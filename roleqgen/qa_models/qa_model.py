@@ -11,7 +11,7 @@ import logging
 from pytorch_lightning.utilities import rank_zero_only
 from pytorch_lightning.loggers import LightningLoggerBase
 
-from qa_models.qa_utils import find_offset_index, get_token_offsets, \
+from .qa_utils import find_offset_index, get_token_offsets, \
     find_text_start_end_indices
 
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(name)s - %(message)s',
