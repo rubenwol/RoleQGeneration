@@ -12,6 +12,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'spacy',
+        'unidecode',
+        'jsonlines',
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
